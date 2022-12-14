@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph2"
+    app:startDestination="@id/profile_Fragment">
+
+    <fragment
+        android:id="@+id/appointment_Fragment"
+        android:name="com.said.icare.Homes_Fragment"
+        android:label="Book an appointment"
+        tools:layout="@layout/fragment_homes_" />
+    <fragment
+        android:id="@+id/profile_Fragment"
+        android:name="com.said.icare.profile_Fragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile_" />
+    <fragment
+        android:id="@+id/groups_Fragment"
+        android:name="com.said.icare.groups"
+        android:label="Group Chats"
+        tools:layout="@layout/fragment_groups" />
+</navigation>
